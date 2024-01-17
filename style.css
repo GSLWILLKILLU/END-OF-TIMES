@@ -16,19 +16,23 @@ body{
 
 header{
     background: black;
+    background: url(images/backdrop.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
     padding: 2em 0 2em 0;
 }
 
 .main{
     display: flex;
-    flex: 1; 
+    flex: 1;
+
 }
 
 .left{
     background: black;
     padding:  3em 0 3em 0;
     flex: 1 1 150px;
-    background-image:url(Images/rusty.jpg) ;
+    background-image:url(Images/slivermetal.jpg) ;
     background-repeat:repeat;
     background-attachment:fixed;    
 }
@@ -36,7 +40,10 @@ header{
 main{
     background: black;
     padding: 3em 0 3em 0;
-    flex: 5 5 150px;  
+    flex: 5 5 150px;
+    text-align: center;
+    background: url(images/metalwall.jpg) ;
+    background-repeat: repeat;   
 }
 
 .right{
