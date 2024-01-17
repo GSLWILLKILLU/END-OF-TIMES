@@ -32,7 +32,7 @@ header{
     background: black;
     padding:  3em 0 3em 0;
     flex: 1 1 150px;
-    background-image:url(Images/slivermetal.jpg) ;
+    background-image:url(images/slivermetal.jpg) ;
     background-repeat:repeat;
     background-attachment:fixed;    
 }
